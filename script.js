@@ -21,3 +21,9 @@ rightArrows.forEach((arrow, index) => {
         });
     });
 });
+/*caserol*/
+const interval = 
+    setInterval(() => { const next = document.querySelector('input[type=radio]:checked').nextElementSibling;
+     if (next) next.checked = true;
+ else document.querySelector('input[type=radio]').checked = true; }, 4000); /* Change every 4 seconds */
+  /*caserol(ends)*/
